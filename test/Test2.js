@@ -8,5 +8,6 @@ test('My first test', async t => {
         .typeText('#developer-name', 'John Smith')
         .click('#submit-button')
         .expect(Selector('#article-header').innerText).eql('Thank you, John Smith!')
-        .wait(3000);
+        .wait(3000)
+        console.log("TestCafe assertion Passed");
 });

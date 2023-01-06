@@ -1,2 +1,2 @@
 # testcafe-app
-#this project created for initial setup
+# this project created for initial setup

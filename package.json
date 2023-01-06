@@ -4,11 +4,14 @@
   "description": "testing",
   "main": "index.js",
   "scripts": {
-    "demoTest": "testcafe chrome test/Test2.js"
+    "chrome": "testcafe chrome test/Test2.js",
+    "chrome:headless": "testcafe chrome:headless test/Test2.js",
+    "reports": "testcafe chrome test/Test2.js --reporter html:reports/htmlReports/report.html"
   },
   "author": "fullstack",
   "license": "ISC",
   "dependencies": {
-    "testcafe": "^2.1.0"
+    "testcafe": "^2.1.0",
+    "testcafe-reporter-html": "^1.4.6"
   }
 }
